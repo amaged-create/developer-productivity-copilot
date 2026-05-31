@@ -1,3 +1,9 @@
+## Live Demo
+
+https://manufacturing-copilot.amaged.workers.dev
+
+Developer Productivity Copilot built on Cloudflare Workers, Workers AI, AI Gateway, D1, retrieval-based knowledge grounding, and MCP-inspired tool patterns.
+
 # Developer Productivity Copilot
 
 A serverless AI-powered Developer Productivity Copilot built on Cloudflare's Developer Platform.
