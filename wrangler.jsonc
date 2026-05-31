@@ -11,9 +11,23 @@
 		"enabled": true
 	},
 	"upload_source_maps": true,
+	"ai": {
+		"binding": "AI"
+	},
+	"assets": {
+		"directory": "./public",
+		"binding": "ASSETS"
+	},
 	"compatibility_flags": [
 		"nodejs_compat"
-	]
+	],
+	"d1_databases": [
+		{
+			"binding": "developer_productivity_copilot_db",
+			"database_name": "developer-productivity-copilot-db",
+			"database_id": "1335b5ab-78ab-41ac-847f-3f21b1d92e8b"
+		}
+	],
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
