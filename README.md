@@ -21,7 +21,45 @@ Additional services:
 - AI Gateway for AI request management
 - D1 for chat history persistence
 - Static knowledge base for developer productivity, platform engineering, AI, and Cloudflare concepts
+```text
 
+User
+
+ |
+
+Browser UI
+
+ |
+
+Cloudflare Worker
+
+ |
+
+Retrieval Layer
+
+ |
+
+Knowledge Base
+
+ |
+
+AI Gateway
+
+ |
+
+Workers AI
+
+ |
+
+Response
+
+Persistence:
+
+Worker -> D1 -> Chat History
+
+Tool Layer:
+
+Worker -> MCP-inspired Tool Registry
 ## Purpose
 
 This project was built to gain hands-on experience with Cloudflare's Developer Platform, AI application architectures, retrieval-augmented workflows, AI governance, and MCP-style tool integration patterns.
