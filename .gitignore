@@ -5,3 +5,14 @@ node_modules/
 dist/
 coverage/
 *.log
+
+# macOS
+.DS_Store
+
+# backups
+*.bak
+*.bak.*
+*.note
+
+# local files
+.wrangler/
