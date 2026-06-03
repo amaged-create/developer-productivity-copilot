@@ -1,6 +1,4 @@
-You’re right. Create it like this:
 
-cat > ARCHITECTURE.md <<'EOF'
 # ARCHITECTURE.md
 # Cloudflare One Zero Trust Demo Architecture
 ## Purpose
